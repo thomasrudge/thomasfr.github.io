@@ -1,0 +1,52 @@
+html, main{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.casa{
+    position: relative;
+    justify-content: flex-end;
+    height: 3rem;
+}
+.seta{
+    position: relative;
+    justify-content: flex-start;
+    height: 3rem;
+}
+
+main{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto{
+    margin-bottom: 4rem;
+    font-size: 1.5rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    padding: 3rem;
+}
+  
+
+
+ul{
+    font-size: 2.5rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    padding: 3rem;
+} 
