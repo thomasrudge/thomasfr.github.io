@@ -96,20 +96,14 @@ h3{
     text-align: center;
     align-self: center;
   }
-
-  h1.circuloG {
-    text-align: center; /* Centraliza o texto horizontalmente */
+.foto{
     display: flex;
-    flex-direction: column;
+    margin-top: 4rem;
+    justify-content: center;
     align-self: center;
-    align-items: center; /* Centraliza o texto verticalmente */
-    font-size: 1.3rem;
-    padding: 2rem;
-    border: 1rem solid green;
-    width: 6rem;
-    height: 6rem;
-    border-radius: 50%;
-}
+  }
+
+
 
 
 
