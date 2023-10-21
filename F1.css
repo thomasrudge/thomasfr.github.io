@@ -1,0 +1,74 @@
+header{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5rem;
+}
+.header-img {
+    max-width: 100%;
+    height: auto;
+}
+h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-size: 2rem;
+    padding: 2rem;
+    border: 0.3rem solid black;
+    
+}
+.itens{
+    display: flex;
+    flex-direction: column;
+}
+.linha{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 2rem;
+
+}
+.circulo {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 1rem solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.circuloam {
+    font-size: 5rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 1rem solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.seta{
+    position: relative;
+    justify-content: flex-start;
+    height: 3rem;
+
+}
+
+.casa{
+    position: relative;
+    justify-content: flex-end;
+    height: 3rem;
+}
+  
