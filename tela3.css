@@ -72,3 +72,15 @@ h2{
     height: 3rem;
 }
   
+.seta{
+    position: relative;
+    justify-content: flex-start;
+    height: 3rem;
+
+}
+
+.casa{
+    position: relative;
+    justify-content: flex-end;
+    height: 3rem;
+}
