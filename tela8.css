@@ -4,7 +4,7 @@ html, main{
 }
 
 header{
-    height: 4rem;
+    height: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,9 +12,19 @@ header{
     font-family: "Open_sans", sans-serif;
 }
 
+
+
+.seta{
+    position: relative;
+    justify-content: flex-start;
+    height: 3rem;
+ }
+
+
 .casa{
     position: relative;
     justify-content: flex-end;
+    height: 3rem;
 }
 .seta{
     position: relative;
@@ -42,17 +52,3 @@ header{
     padding: 2rem;
     text-align: center;
 }
-
-.seta{
-    position: relative;
-    justify-content: flex-start;
-    height: 3rem;
-
-}
-
-.casa{
-    position: relative;
-    justify-content: flex-end;
-    height: 3rem;
-}
-

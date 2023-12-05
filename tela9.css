@@ -85,6 +85,7 @@ main{
     display: flex;
     margin-top: 1rem;
     text-align: center;
+    text-decoration: none;
 }
 .linha1{
     display: flex;
