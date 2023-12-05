@@ -1,6 +1,8 @@
 html,body,main{
     width: 100%;
     height: 100%;
+    font-family: 'Open_Sans', sans-serif;
+    text-decoration-color: black;
 }
 
 header{
@@ -85,6 +87,8 @@ main{
     display: flex;
     margin-top: 1rem;
     text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
 }
 .linha1{
     display: flex;
