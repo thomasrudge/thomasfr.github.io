@@ -68,7 +68,7 @@ h3{
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
-    border: 1rem solid green;
+    border: 1rem solid #99cc00;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +83,7 @@ h3{
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
-    border: 1rem solid green;
+    border: 1rem solid #99cc00;
     display: flex;
     justify-content: center;
     align-items: center;
