@@ -24,6 +24,20 @@ h2{
 
 }
 
+.nome-usuario{
+  display: flex; /* Estabelece um contexto flexível */
+  flex-direction: column; /* Os itens são empilhados verticalmente */
+  justify-content: center; /* Centraliza os itens ao longo do eixo principal (verticalmente) */
+  align-items: center; /* Centraliza os itens ao longo do eixo cruzado (horizontalmente) */
+  position: relative; /* Posicionamento absoluto em relação ao seu elemento pai posicionado mais próximo */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+  padding: 2rem;
+  margin-top: 2rem;
+  border: 0.5rem solid black;
+}
+
 h3{
 
     display: flex;
