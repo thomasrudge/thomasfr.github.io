@@ -1,142 +1,74 @@
-html,body,main{
+html, body, main {
     width: 100%;
     height: 100%;
     font-family: 'Open_Sans', sans-serif;
-  }
+}
 
-header{
-    height: 5%;
+header {
+    height: 60px; /* Mantido em pixels */
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    font-family: 'Open_Sans', sans-serif;
-}
-.casa{
-    position: relative;
-    justify-content: flex-end;
-}
-.seta{
-    position: relative;
-    justify-content: flex-start;
-}
-
-main{
-    width: 100%;
-    height: 95%;
-}
-.soja{
-    height: 8rem;
-    width: 14rem;
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3.5rem;
-    border: 0.5rem solid black;
-}
-
-.area{
-    height: 2rem;
-    width: 10rem;
-    margin-top: 1rem;
-    border: 0.5rem solid black;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.previsao{
-    height: 2rem;
-    width: 10rem;
-    margin-top: 1rem;
-    border: 0.5rem solid black;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.linha{
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    font-size: 2rem; /* Ajuste se necessário para adequar ao design */
 }
 
-.bolaverdemaior{
-    width: 8rem;
-    height: 8rem;
-    border-radius: 8rem;
-    border: 1.5rem solid #99cc00;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    display: flex;
-    margin-top: -2rem;
-    font-size: 2rem;
-    text-align: center;
+.casa, .seta {
+    height: 3rem; /* Mantido em rem para escalonamento proporcional */
 }
-.bolaverdemenor{
-    width: 6rem;
-    height: 6rem;
-    border-radius: 6rem;
-    border: 1rem solid #99cc00;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    display: flex;
+
+main {
+    width: 100%;
+    height: calc(100% - 60px); /* Subtrai a altura do cabeçalho */
+}
+
+.soja, .area, .previsao, .atualizacoes {
     margin-top: 1rem;
-    text-align: center;
-    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem; /* Ajustável para visibilidade */
+    border: 5px solid black; /* Mantido em pixels para consistência */
 }
-.linha1{
+
+.soja {
+    height: 8rem; /* Ajustável para visibilidade */
+    width: 14rem; /* Ajustável para visibilidade */
+}
+
+.bolaverdemaior, .bolaverdemenor {
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.bolaverdemaior {
+    width: 8rem; /* Ajustável para visibilidade */
+    height: 8rem; /* Ajustável para visibilidade */
+    font-size: 2rem; /* Ajustável para visibilidade */
+    border: 15px solid #99cc00; /* Mantido em pixels para consistência */
+}
+
+.bolaverdemenor {
+    width: 6rem; /* Ajustável para visibilidade */
+    height: 6rem; /* Ajustável para visibilidade */
+    font-size: 1rem; /* Ajustável para visibilidade */
+    border: 10px solid #99cc00; /* Mantido em pixels para consistência */
+}
+
+.linha, .linha1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.atualizacoes{
-    height: 11rem;
-    width: 90%;
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 1.5rem;
-    border: 0.5rem solid black;
+
+.titulo, .subtitulo {
+    font-size: 1.5rem; /* Ajustável para visibilidade */
 }
-.coluna{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    text-align: left;
-}
-.titulo{
-    font-size: 3rem;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-header{
-    height: 4rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 2.5rem;
-}
-.header-img{
+
+.header-img {
     max-width: 100%;
     height: auto;
-}
-
-.seta{
-    position: relative;
-    justify-content: flex-start;
-    height: 3rem;
-
-}
-
-.casa{
-    position: relative;
-    justify-content: flex-end;
-    height: 3rem;
 }
