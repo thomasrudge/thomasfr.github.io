@@ -48,7 +48,7 @@ main {
     width: 8rem; /* Ajustável para visibilidade */
     height: 8rem; /* Ajustável para visibilidade */
     font-size: 2rem; /* Ajustável para visibilidade */
-    border: 15px solid black; /* Mantido em pixels para consistência */
+    border: 15px solid #99cc00; /* Mantido em pixels para consistência */
 }
 
 .bolaverdemenor {
