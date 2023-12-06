@@ -1,4 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
+
+    var h1 = document.querySelector('h1');
+
+    h1.addEventListener('click', function() {
+        localStorage.clear();
+        alert('LocalStorage limpo com sucesso!');
+    });
+    
     var h2 = document.querySelector('h2');
     
     // Verifica se já existe um nome de usuário salvo e define como valor padrão, se houver
