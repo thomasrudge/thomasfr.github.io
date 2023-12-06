@@ -1,11 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     var plusSign = document.querySelector('.previsao .plus-sign');
 
-    if (!plusSign) {
-        console.error('Elemento + não encontrado');
-        return;
-    }
-
     // Cria um input e o configura
     var input = document.createElement('input');
     input.type = 'number';
@@ -25,4 +20,28 @@ document.addEventListener('DOMContentLoaded', function() {
         var h2 = input.parentNode;
         h2.replaceChild(newContent, input);
     });
+
+    var subtitulo = document.querySelector('.subtitulo');
+
+
+    // Cria um input e o configura
+    var input = document.createElement('input');
+    input.type = 'text';
+    input.placeholder = 'Digite o novo texto';
+    input.className = 'subtitulo-input'; // Classe para estilização, se necessário
+
+    // Substitui o subtitulo pelo input ao clicar
+    subtitulo.addEventListener('click', function() {
+        input.value = this.textContent; // Configura o valor do input para o texto atual do subtitulo
+        this.parentNode.replaceChild(input, this);
+        input.focus(); // Coloca o foco no input
+    });
+
+    // Atualiza o subtitulo quando o valor do input muda e substitui o input pelo texto atualizado
+    input.addEventListener('change', function() {
+        var newContent = document.createTextNode(input.value);
+        var li = input.parentNode;
+        li.replaceChild(newContent, input);
+    });
+
 });
