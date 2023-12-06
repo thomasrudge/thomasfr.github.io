@@ -45,7 +45,7 @@ main{
 
 ul{
     font-size: 2.5rem;
-    border-width: 1px;
+    border-width: 1rem;
     border-style: solid;
     border-color: black;
     border-image: initial;
