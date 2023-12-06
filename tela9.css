@@ -44,7 +44,7 @@ main{
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 .previsao{
     height: 3.5rem;
@@ -54,7 +54,7 @@ main{
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .linha{
@@ -127,6 +127,9 @@ header{
     position: relative;
     height: 2.5rem;
     width: 2.5rem;
+    align-items: center;
+    align-content: center;
+    display: flex;
 }
 
 .seta{
