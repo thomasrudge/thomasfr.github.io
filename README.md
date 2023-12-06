@@ -1,1 +1,0 @@
-# Equipe10_turmaC
